@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EastSchool</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <main>
+        <!-- ========== navigation ========== -->
+        <div class="fixed z-40 w-full top-0 lg:border-b transition ease-in" id="nav">
+            <div class="flex justify-between items-center max-w-screen-xl border-b lg:border-none bg-opacity-30 bg-transparent mx-auto px-4 lg:px-16 py-6">
+                <a href="index.html" class="text-3xl font-extrabold text-white">EastSchool</a>
+                <nav class="hidden lg:block duration-300 ease-in-out overflow-hidden">
+                    <ul class="lg:flex lg:space-x-4 font-medium text-white">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Dropdown</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <a href="#" class="ml-auto lg:ml-0 text-white py-2 px-6 rounded-full bg-green-600 hover:bg-green-500 transition ease-in-out">Get Started</a>
+                <button class="toggle-button block lg:hidden focus:outline-none ml-4">
+                    <svg class="w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="white">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </div>
+
+            <!-- mobile menu -->
+            <div class="content hidden space-y-4 font-medium text-white p-4">
+                <a class="block text-center" href="index.html">Home</a>
+                <a class="block text-center" href="#">About</a>
+                <a class="block text-center" href="#">Services</a>
+                <a class="block text-center" href="#">Portfolio</a>
+                <a class="block text-center" href="#">Pricing</a>
+                <a class="block text-center" href="#">Dropdown</a>
+                <a class="block text-center" href="#">Contact</a>
+            </div>
+        </div>
+
+        <!-- ========== hero section ========== -->
+        <div style="background-image: url(img/hero-bg.jpg)" class="relative bg-fixed h-screen bg-center bg-cover">
+            <div class="absolute bg-gray-900 bg-opacity-70 w-full px-8 flex flex-col justify-center h-screen items-center space-y-6">
+                <h1 class="text-white text-3xl md:text-5xl text-center font-bold">EastSchool - boost your knowledge <br> with studying with us</h1>
+                <h5 class="text-white text-xl font-medium">We are the team of professional teachers</h5>
+                <div class="rounded-full bg-green-600  bg-opacity-50 pt-[10px] pb-[6px] px-[11px]">
+                    <ion-icon name="play" class="text-3xl text-white rounded-full bg-green-600 py-4 pl-[18px] pr-[15px]"></ion-icon>
+                </div>
+            </div>
+        </div>
+
+        <!-- ========== about us section ========== -->
+        <div class="max-w-screen-2xl mx-auto px-8 md:px-20 py-6 text-gray-800">
+            <h1 class="text-3xl font-medium py-4">About Us</h1>
+            <div class="w-16 h-1 bg-green-600"></div>
+            <p class="text-gray-500 py-4">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+            <div class="md:flex space-y-6 md:space-y-0 md:space-x-8 py-4">
+                <div class="w-full md:w-1/2 space-y-3">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <div class="flex items-center space-x-2">
+                        <ion-icon name="checkmark-done-outline" class="text-green-600 text-xl"></ion-icon>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <div class="flex items-center space-x-2">
+                        <ion-icon name="checkmark-done-outline" class="text-green-600 text-xl"></ion-icon>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <div class="flex items-center space-x-2">
+                        <ion-icon name="checkmark-done-outline" class="text-green-600 text-xl"></ion-icon>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2">
+                    <p class="pb-8">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <a href="#" class="text-green-600 font-medium pt-2 pb-3 px-10 border-2 rounded-full border-green-600 hover:bg-green-600 hover:text-white transition ease-in-out">Learn More</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- ========== services section ========== -->
+        <div class="max-w-screen-2xl mx-auto px-8 md:px-20 py-6 text-gray-800 bg-gray-100">
+            <h1 class="text-3xl font-medium py-4">Services</h1>
+            <div class="w-16 h-1 bg-green-600"></div>
+            <p class="text-gray-500 py-4">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+            <div class="flex flex-wrap -m-4 py-6">
+                <div class="p-4 w-full sm:w-1/2 lg:w-1/3">
+                    <div class="group bg-white rounded-2xl transform hover:-translate-y-4 hover:border-b-4 border-green-600 transition ease-in-out duration-300 px-6 py-10 hover:pb-9">
+                        <ion-icon name="basketball-outline" class="text-3xl text-white bg-green-600 rounded-full p-4"></ion-icon>
+                        <h1 class="text-2xl font-bold group-hover:text-green-600 transition ease-in-out py-2">Lorem ipsum</h1>
+                        <p class="text-gray-600">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                    </div>
+                </div>
+                <div class="p-4 w-full sm:w-1/2 lg:w-1/3">
+                    <div class="group bg-white rounded-2xl transform hover:-translate-y-4 hover:border-b-4 border-green-600 transition ease-in-out duration-300 px-6 py-10 hover:pb-9">
+                        <ion-icon name="document-text-outline" class="text-3xl text-white bg-green-600 rounded-full p-4"></ion-icon>
+                        <h1 class="text-2xl font-bold group-hover:text-green-600 transition ease-in-out py-2">Lorem ipsum</h1>
+                        <p class="text-gray-600">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                    </div>
+                </div>
+                <div class="p-4 w-full sm:w-1/2 lg:w-1/3">
+                    <div class="group bg-white rounded-2xl transform hover:-translate-y-4 hover:border-b-4 border-green-600 transition ease-in-out duration-300 px-6 py-10 hover:pb-9">
+                        <ion-icon name="speedometer-outline" class="text-3xl text-white bg-green-600 rounded-full p-4"></ion-icon>
+                        <h1 class="text-2xl font-bold group-hover:text-green-600 transition ease-in-out py-2">Lorem ipsum</h1>
+                        <p class="text-gray-600">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                    </div>
+                </div>
+                <div class="p-4 w-full sm:w-1/2 lg:w-1/3">
+                    <div class="group bg-white rounded-2xl transform hover:-translate-y-4 hover:border-b-4 border-green-600 transition ease-in-out duration-300 px-6 py-10 hover:pb-9">
+                        <ion-icon name="earth-outline" class="text-3xl text-white bg-green-600 rounded-full p-4"></ion-icon>
+                        <h1 class="text-2xl font-bold group-hover:text-green-600 transition ease-in-out py-2">Lorem ipsum</h1>
+                        <p class="text-gray-600">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                    </div>
+                </div>
+                <div class="p-4 w-full sm:w-1/2 lg:w-1/3">
+                    <div class="group bg-white rounded-2xl transform hover:-translate-y-4 hover:border-b-4 border-green-600 transition ease-in-out duration-300 px-6 py-10 hover:pb-9">
+                        <ion-icon name="desktop-outline" class="text-3xl text-white bg-green-600 rounded-full p-4"></ion-icon>
+                        <h1 class="text-2xl font-bold group-hover:text-green-600 transition ease-in-out py-2">Lorem ipsum</h1>
+                        <p class="text-gray-600">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                    </div>
+                </div>
+                <div class="p-4 w-full sm:w-1/2 lg:w-1/3">
+                    <div class="group bg-white rounded-2xl transform hover:-translate-y-4 hover:border-b-4 border-green-600 transition ease-in-out duration-300 px-6 py-10 hover:pb-9">
+                        <ion-icon name="home-outline" class="text-3xl text-white bg-green-600 rounded-full p-4"></ion-icon>
+                        <h1 class="text-2xl font-bold group-hover:text-green-600 transition ease-in-out py-2">Lorem ipsum</h1>
+                        <p class="text-gray-600">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                    </div>
+                </div> 
+            </div>
+        </div>
+
+        <!-- ========== call to action section ========== -->
+        <div style="background-image: url(img/cta-bg.jpg)" class="relative bg-fixed h-96 bg-cover">
+            <div class="absolute bg-gray-900 bg-opacity-70 w-full">
+                <div class="max-w-screen-2xl mx-auto px-8 md:px-20 md:py-6 flex flex-wrap items-center h-96">
+                    <div class="md:w-2/3 text-white pt-16 md:pt-0 pr-6">
+                        <h1 class="text-3xl font-bold">Call to Action</h1>
+                        <p class="">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    <div class="md:w-1/3 pb-16 text-right md:pb-0">
+                        <a href="#" class="text-white inline-block py-3 px-10 mx-auto text-lg rounded-full bg-green-600 hover:bg-green-500 transition ease-in-out">Call to Action</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ========== features section ========== -->
+        <div class="max-w-screen-2xl mx-auto px-8 md:px-20 py-20 text-gray-800">
+            <div class="md:flex items-center space-y-6 md:space-y-0 md:space-x-6">
+                <div class="w-full md:w-1/2">
+                    <div class="flex items-start space-x-4 py-4">
+                        <ion-icon name="document-outline" class="w-24 text-4xl text-green-600"></ion-icon>
+                        <div>
+                            <h1 class="text-2xl font-bold">Lorem ipsum.</h1>
+                            <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur, adipisicing elit. At velit iste pariatur nostrum voluptatibus praesentium.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-4 py-4">
+                        <ion-icon name="shapes-outline" class="w-24 text-4xl text-green-600"></ion-icon>
+                        <div>
+                            <h1 class="text-2xl font-bold">Lorem ipsum.</h1>
+                            <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur, adipisicing elit. At velit iste pariatur nostrum voluptatibus praesentium.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-4 py-4">
+                        <ion-icon name="images-outline" class="w-24 text-4xl text-green-600"></ion-icon>
+                        <div>
+                            <h1 class="text-2xl font-bold">Lorem ipsum.</h1>
+                            <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur, adipisicing elit. At velit iste pariatur nostrum voluptatibus praesentium.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-4 py-4">
+                        <ion-icon name="shield-checkmark-outline" class="w-24 text-4xl text-green-600"></ion-icon>
+                        <div>
+                            <h1 class="text-2xl font-bold">Lorem ipsum.</h1>
+                            <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur, adipisicing elit. At velit iste pariatur nostrum voluptatibus praesentium.</p>
+                        </div>
+                    </div>
+                </div>
+                <img src="img/features.jpg" alt="features image" class="w-full md:w-1/2 h-[28rem] object-cover">
+            </div>
+        </div>
+
+        <!-- ========== sponsors section ========== -->
+        <div class="max-w-screen-2xl mx-auto px-8 md:px-20 py-20">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
+                <img src="img/clients/client-1.png" class="w-36 mx-auto transform hover:scale-110 transition ease-in-out duration-500" alt="myob">
+                <img src="img/clients/client-2.png" class="w-36 mx-auto transform hover:scale-110 transition ease-in-out duration-500" alt="belimo">
+                <img src="img/clients/client-3.png" class="w-36 mx-auto transform hover:scale-110 transition ease-in-out duration-500" alt="life groups">
+                <img src="img/clients/client-4.png" class="w-36 mx-auto transform hover:scale-110 transition ease-in-out duration-500" alt="lilly">
+                <img src="img/clients/client-5.png" class="w-36 mx-auto transform hover:scale-110 transition ease-in-out duration-500" alt="citrus">
+                <img src="img/clients/client-6.png" class="w-36 mx-auto transform hover:scale-110 transition ease-in-out duration-500" alt="trustly">
+                <img src="img/clients/client-7.png" class="w-36 mx-auto transform hover:scale-110 transition ease-in-out duration-500" alt="oldendorff">
+                <img src="img/clients/client-8.png" class="w-36 mx-auto transform hover:scale-110 transition ease-in-out duration-500" alt="grabyo">
+            </div>
+        </div>
+
+        <!-- ========== achievements section ========== -->
+        <div style="background-image: url(img/counts-bg.jpg)" class="counts relative bg-fixed h-[38rem] md:h-96 bg-cover">
+            <div class="absolute bg-gray-900 bg-opacity-70 w-full px-8 flex flex-col justify-center h-[38rem] md:h-96 items-center">
+                <h1 class="text-white text-3xl md:text-5xl text-center font-bold">What we have achieved so far</h1>
+                <h5 class="text-white text-xl font-medium text-center py-6">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat, nisi!</h5>
+                <div class="flex flex-wrap w-full pt-4">
+                    <div class="count-card w-full md:w-1/2 lg:w-1/4 text-center py-2">
+                        <h1 class="text-5xl font-bold text-green-600">457</h1>
+                        <p class="text-white">Clients</p>
+                    </div>
+                    <div class="count-card w-full md:w-1/2 lg:w-1/4 text-center py-2">
+                        <h1 class="text-5xl font-bold text-green-600">672</h1>
+                        <p class="text-white">Projects</p>
+                    </div>
+                    <div class="count-card w-full md:w-1/2 lg:w-1/4 text-center py-2">
+                        <h1 class="text-5xl font-bold text-green-600">4867</h1>
+                        <p class="text-white">Hours of Support</p>
+                    </div>
+                    <div class="count-card w-full md:w-1/2 lg:w-1/4 text-center py-2">
+                        <h1 class="text-5xl font-bold text-green-600">56</h1>
+                        <p class="text-white">Staff</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ========== Portfolio section ========== -->
+        <div class="max-w-screen-2xl mx-auto px-8 md:px-20 py-10 text-gray-800 bg-gray-100">
+            <h1 class="text-3xl font-medium pb-4">Portfolio</h1>
+            <div class="w-16 h-1 bg-green-600"></div>
+            <p class="text-gray-500 py-4">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+            <div class="button-group scale mt-4 text-center space-x-2">
+                <button class="py-1 px-4 my-1 rounded-full bg-gray-300 hover:bg-green-500 hover:text-white transition ease-in-out focus:outline-none" type="button" class="active" data-filter="*">All</button>
+                <button class="py-1 px-4 my-1 rounded-full bg-gray-300 hover:bg-green-500 hover:text-white transition ease-in-out focus:outline-none" type="button" data-filter=".app">App</button>
+                <button class="py-1 px-4 my-1 rounded-full bg-gray-300 hover:bg-green-500 hover:text-white transition ease-in-out focus:outline-none" type="button" data-filter=".p-card">Card</button>
+                <button class="py-1 px-4 my-1 rounded-full bg-gray-300 hover:bg-green-500 hover:text-white transition ease-in-out focus:outline-none" type="button" data-filter=".web">Web</button>
+            </div>
+
+            <div class="isotope flex flex-wrap mt-4">
+                <div class="w-full md:w-1/2 lg:w-1/3 p-card p-4">
+                    <div class="relative group overflow-hidden">
+                        <div class="img">
+                            <img class="z-0 object-fill" src="img/portfolio/portfolio-7.jpg" alt="">
+                        </div>
+
+                        <div class="absolute bottom-0 w-full bg-green-600 text-white py-2 px-4 transform  translate-y-full transition-transform ease-in-out duration-500 group-hover:translate-y-0">
+                            <h4>Card 2</h4>
+                            <p class="text-secondary">Card</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 p-card p-4">
+                    <div class="relative group overflow-hidden">
+                        <div class="img">
+                            <img class="z-0 object-fill" src="img/portfolio/portfolio-8.jpg" alt="">
+                        </div>
+                        <div class="absolute bottom-0 w-full bg-green-600 text-white py-2 px-4 transform  translate-y-full transition-transform ease-in-out duration-500 group-hover:translate-y-0">
+                            <h4>Card 3</h4>
+                            <p class="text-secondary">Card</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 web p-4">
+                    <div class="relative group overflow-hidden">
+                        <div class="img">
+                            <img class="z-0 object-fill" src="img/portfolio/portfolio-9.jpg" alt="">
+                        </div>
+                        <div class="absolute bottom-0 w-full bg-green-600 text-white py-2 px-4 transform  translate-y-full transition-transform ease-in-out duration-500 group-hover:translate-y-0">
+                            <h4>Web 3</h4>
+                            <p class="text-secondary">Web</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 web p-4">
+                    <div class="relative group overflow-hidden">
+                        <div class="img">
+                            <img class="z-0 object-fill" src="img/portfolio/portfolio-2.jpg" alt="">
+                        </div>
+                        <div class="absolute bottom-0 w-full bg-green-600 text-white py-2 px-4 transform  translate-y-full transition-transform ease-in-out duration-500 group-hover:translate-y-0">
+                            <h4>Web 1</h4>
+                            <p class="text-secondary">Web</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 app p-4">
+                    <div class="relative group overflow-hidden">
+                        <div class="img">
+                            <img class="z-0 object-fill" src="img/portfolio/portfolio-3.jpg" alt="">
+                        </div>
+                        <div class="absolute bottom-0 w-full bg-green-600 text-white py-2 px-4 transform  translate-y-full transition-transform ease-in-out duration-500 group-hover:translate-y-0">
+                            <h4>App 2</h4>
+                            <p class="text-secondary">App</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 p-card p-4">
+                    <div class="relative group overflow-hidden">
+                        <div class="img">
+                            <img class="z-0 object-fill" src="img/portfolio/portfolio-4.jpg" alt="">
+                        </div>
+                        <div class="absolute bottom-0 w-full bg-green-600 text-white py-2 px-4 transform  translate-y-full transition-transform ease-in-out duration-500 group-hover:translate-y-0">
+                            <h4>Card 1</h4>
+                            <p class="text-secondary">Card</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 app p-4">
+                    <div class="relative group overflow-hidden">
+                        <div class="img">
+                            <img class="z-0 object-fill" src="img/portfolio/portfolio-1.jpg" alt="">
+                        </div>
+                        <div class="absolute bottom-0 w-full bg-green-600 text-white py-2 px-4 transform  translate-y-full transition-transform ease-in-out duration-500 group-hover:translate-y-0">
+                            <h4>App 1</h4>
+                            <p class="text-secondary">App</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 web p-4">
+                    <div class="relative group overflow-hidden">
+                        <div class="img">
+                            <img class="z-0 object-fill" src="img/portfolio/portfolio-5.jpg" alt="">
+                        </div>
+                        <div class="absolute bottom-0 w-full bg-green-600 text-white py-2 px-4 transform  translate-y-full transition-transform ease-in-out duration-500 group-hover:translate-y-0">
+                            <h4>Web 2</h4>
+                            <p class="text-secondary">Web</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 app p-4">
+                    <div class="relative group overflow-hidden">
+                        <div class="img">
+                            <img class="z-0 object-fill" src="img/portfolio/portfolio-6.jpg" alt="">
+                        </div>
+                        <div class="absolute bottom-0 w-full bg-green-600 text-white py-2 px-4 transform  translate-y-full transition-transform ease-in-out duration-500 group-hover:translate-y-0">
+                            <h4>App 3</h4>
+                            <p class="text-secondary">App</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ========== pricing section ========== -->
+        <div class="max-w-screen-2xl mx-auto px-8 md:px-20 py-10 text-gray-800">
+            <h1 class="text-3xl font-medium py-4">Pricing</h1>
+            <div class="w-16 h-1 bg-green-600"></div>
+            <p class="text-gray-500 py-4">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+            <div class="flex flex-wrap w-full -mx-4">
+                <div class="p-4 w-full md:w-1/2 lg:w-1/3">
+                    <div class="bg-white text-center rounded-xl border pt-20 pb-12">
+                        <h1 class="text-2xl font-medium">Free</h1>
+                        <p class="text-green-600 py-6"><sup class="text-lg -top-4">$</sup><span class="text-5xl font-medium">0</span><sub class="text-gray-400">/month</sub></p>
+                        <div class="py-6 space-y-2">
+                            <p>Lorem, ipsum.</p>
+                            <p>Lorem, ipsum dolor.</p>
+                            <p>Lorem ipsum dolor sit.</p>
+                            <p class="text-gray-400"><del>Lorem ipsum dolor sit.</del></p>
+                            <p class="text-gray-400"><del>Lorem ipsum dolor sit.</del></p>
+                        </div>
+                        <a href="#" class="py-2 px-10 text-green-600 border-2 rounded-full border-green-600 hover:bg-green-600 hover:text-white transition ease-in-out inline-block">Buy Now</a>
+                    </div>
+                </div>
+                <div class="p-4 w-full md:w-1/2 lg:w-1/3">
+                    <div class="bg-white text-center rounded-xl border pb-12">
+                        <div class="py-6">
+                            <p class="py-1 px-6 mx-auto w-40 text-green-600 bg-green-300 bg-opacity-20 rounded-full">Recommended</p>
+                        </div>
+                        <h1 class="text-2xl font-medium">Business</h1>
+                        <p class="text-green-600 py-6"><sup class="text-lg -top-4">$</sup><span class="text-5xl font-medium">19</span><sub class="text-gray-400">/month</sub></p>
+                        <div class="py-6 space-y-2">
+                            <p>Lorem, ipsum.</p>
+                            <p>Lorem, ipsum dolor.</p>
+                            <p>Lorem ipsum dolor sit.</p>
+                            <p>Lorem ipsum dolor sit.</p>
+                            <p class="text-gray-400"><del>Lorem ipsum dolor sit.</del></p>
+                        </div>
+                        <a href="#" class="py-2 px-10 text-green-600 border-2 rounded-full border-green-600 hover:bg-green-600 hover:text-white transition ease-in-out inline-block">Buy Now</a>
+                    </div>
+                </div>
+                <div class="p-4 w-full md:w-1/2 lg:w-1/3">
+                    <div class="bg-white text-center rounded-xl border pt-20 pb-12">
+                        <h1 class="text-2xl font-medium">Developer</h1>
+                        <p class="text-green-600 py-6"><sup class="text-lg -top-4">$</sup><span class="text-5xl font-medium">29</span><sub class="text-gray-400">/month</sub></p>
+                        <div class="py-6 space-y-2">
+                            <p>Lorem, ipsum.</p>
+                            <p>Lorem, ipsum dolor.</p>
+                            <p>Lorem ipsum dolor sit.</p>
+                            <p>Lorem ipsum dolor sit.</p>
+                            <p>Lorem ipsum dolor sit.</p>
+                        </div>
+                        <a href="#" class="py-2 px-10 text-green-600 border-2 rounded-full border-green-600 hover:bg-green-600 hover:text-white transition ease-in-out inline-block">Buy Now</a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <!-- ========== faq section ========== -->
+        <div class="text-gray-800 bg-gray-100">
+            <div class="flex flex-wrap w-full">
+                <div class="w-full lg:w-1/2 order-2 lg:order-1 py-10 px-8 md:px-20">
+                    <h1 class="text-4xl">Frequently Asked <span class="font-bold">Questions</span></h1>
+                    <p class="text-gray-500 py-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit, inventore aperiam sit perspiciatis at officiis reiciendis veritatis possimus vitae ducimus!</p>
+                    <div class="accordion space-y-4 py-6">
+                        <section class="py-1 px-4 bg-gray-50">
+                            <button type="button"
+                              class="w-full text-lg font-medium flex items-center transition duration-200 ease-in-out focus:outline-none py-2 pl-2">
+                              Lorem ipsum dolor sit.
+                              <span class="ml-auto pr-3">
+                                <svg class="pointer-events-none transition-transform duration-200 ease-in" xmlns="http://www.w3.org/2000/svg" width="24" fill="none" viewBox="0 0 24 24" stroke="#000">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                                  </svg>
+                              </span>
+                            </button>
+                            <div class="w-full h-0 transition-[height] duration-200 ease-in overflow-hidden px-4">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate modi laboriosam consequuntur vel, sapiente harum nemo deleniti aperiam et soluta! Incidunt id magni, ullam adipisci exercitationem repudiandae vitae tempora quo!</p>
+                            </div>
+                        </section>
+                        <section class="py-1 px-4 bg-gray-50">
+                            <button type="button"
+                              class="w-full text-lg font-medium flex items-center transition duration-200 ease-in-out focus:outline-none py-2 pl-2">
+                              Lorem ipsum dolor sit.
+                              <span class="ml-auto pr-3">
+                                <svg class="pointer-events-none transition-transform duration-200 ease-in" xmlns="http://www.w3.org/2000/svg" width="24" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                                  </svg>
+                              </span>
+                            </button>
+                            <div class="w-full h-0 transition-[height] duration-200 ease-in overflow-hidden px-4">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate modi laboriosam consequuntur vel, sapiente harum nemo deleniti aperiam et soluta! Incidunt id magni, ullam adipisci exercitationem repudiandae vitae tempora quo!</p>
+                            </div>
+                        </section>
+                        <section class="py-1 px-4 bg-gray-50">
+                            <button type="button"
+                              class="w-full text-lg font-medium flex items-center transition duration-200 ease-in-out focus:outline-none py-2 pl-2">
+                              Lorem ipsum dolor sit.
+                              <span class="ml-auto pr-3">
+                                <svg class="pointer-events-none transition-transform duration-200 ease-in" xmlns="http://www.w3.org/2000/svg" width="24" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                                  </svg>
+                              </span>
+                            </button>
+                            <div class="w-full h-0 transition-[height] duration-200 ease-in overflow-hidden px-4">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate modi laboriosam consequuntur vel, sapiente harum nemo deleniti aperiam et soluta! Incidunt id magni, ullam adipisci exercitationem repudiandae vitae tempora quo!</p>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/2 order-1 lg:order-2 bg-cover bg-center h-96 lg:h-auto" style="background-image: url(img/faq.jpg)">&nbsp;</div>
+            </div>
+        </div>
+
+        <!-- ========== contact section ========== -->
+        <div>
+            <div class="max-w-screen-2xl mx-auto px-8 md:px-20 py-6 text-gray-800">
+                <h1 class="text-3xl font-medium py-4">Contact</h1>
+                <div class="w-16 h-1 bg-green-600"></div>
+                <p class="text-gray-500 py-4">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+            </div>
+            <div>
+                <iframe class="border-0 w-full h-80" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2351.9988411965137!2d72.3485135796703!3d40.78529344040278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38bceca0aab3042d%3A0xbc7ba802119fb2af!2s%22O&#39;zbegim%22%20Trade%20Center!5e0!3m2!1sen!2s!4v1619088301311!5m2!1sen!2s" allowfullscreen=""></iframe>
+            </div>
+            <div class="max-w-screen-2xl mx-auto px-8 md:px-20 py-6 text-gray-800 bg-none lg:flex flex-wrap">
+                <div class="flex flex-wrap flex-row items-start w-full lg:w-1/3">
+                    <div class="flex py-4">
+                        <ion-icon name="location-outline" class="w-24 text-4xl text-green-600"></ion-icon>
+                        <div>
+                            <h1 class="text-2xl font-medium">Location:</h1>
+                            <p class="text-gray-500">109 Channel Dr. <br> Point Pleasant, NJ 08742</p>
+                        </div>
+                    </div>
+                    <div class="flex py-4">
+                        <ion-icon name="mail-outline" class="w-24 text-4xl text-green-600"></ion-icon>
+                        <div>
+                            <h1 class="text-2xl font-medium">Email:</h1>
+                            <p class="text-gray-500">info@example.com</p>
+                        </div>
+                    </div>
+                    <div class="flex py-4">
+                        <ion-icon name="call-outline" class="w-24 text-4xl text-green-600"></ion-icon>
+                        <div>
+                            <h1 class="text-2xl font-medium">Call:</h1>
+                            <p class="text-gray-500">+998 88 777 77 77</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full lg:w-2/3">
+                    <form action="" class="flex flex-col space-y-6 py-3">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div class="outline relative">
+                                <input type="text" name="name" placeholder=" "
+                                    class="border-2 rounded-md focus-within:border-green-400 shadow-inner block p-2 w-full appearance-none focus:outline-none bg-transparent">
+                                <label for="name" class="text-black absolute top-0 bg-white p-2 -z-1 duration-300 origin-0">Your Name</label>
+                            </div>
+                            <div class="outline relative">
+                                <input type="email" name="email" placeholder=" "
+                                    class="border-2 rounded-md focus-within:border-green-400 shadow-inner block p-2 w-full appearance-none focus:outline-none bg-transparent">
+                                <label for="email" class="absolute top-0 bg-white p-2 -z-1 duration-300 origin-0">Your
+                                    Email</label>
+                            </div>
+                        </div>
+                        <div class="outline relative ">
+                            <input type="text" name="name" placeholder=" "
+                                class="border-2 rounded-md focus-within:border-green-400 shadow-inner block p-2 w-full appearance-none focus:outline-none bg-transparent">
+                            <label for="name" class="text-black absolute top-0 bg-white p-2 -z-1 duration-300 origin-0">Subject</label>
+                        </div>
+                        <div class="outline relative ">
+                            <textarea name="msg" rows="4" placeholder=" "
+                                class="border-2 rounded-md focus-within:border-green-400 shadow-inner block p-2 w-full appearance-none focus:outline-none bg-transparent resize-none"></textarea>
+                            <label for="msg"
+                                class="absolute top-0 bg-white p-2 -z-1 duration-300 origin-0">Message</label>
+                        </div>
+                        <button
+                            class="inline-block text-center mx-auto bg-green-600 text-white font-bold rounded-full px-10 py-2 uppercase text-sm focus:outline-none focus:ring-2 ring-green-700 ring-offset-2 hover:bg-green-700 transition duration-300 ease-in-out">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- ========== footer section ========== -->
+        <div class="bg-gray-900 py-12 px-8 text-center text-white">
+            <a href="index.html" class="text-4xl font-bold tracking-wider">EastSchool</a>
+            <p class="italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, accusamus!</p>
+            <div class="py-6">
+                <ion-icon class="text-xl text-white bg-green-600 p-2 m-1 rounded-full cursor-pointer transform hover:-translate-y-2 transition ease-in" name="logo-github"></ion-icon>
+                <ion-icon class="text-xl text-white bg-green-600 p-2 m-1 rounded-full cursor-pointer transform hover:-translate-y-2 transition ease-in" name="logo-twitter"></ion-icon>
+                <ion-icon class="text-xl text-white bg-green-600 p-2 m-1 rounded-full cursor-pointer transform hover:-translate-y-2 transition ease-in" name="logo-instagram"></ion-icon>
+                <ion-icon class="text-xl text-white bg-green-600 p-2 m-1 rounded-full cursor-pointer transform hover:-translate-y-2 transition ease-in" name="logo-linkedin"></ion-icon>
+                <ion-icon class="text-xl text-white bg-green-600 p-2 m-1 rounded-full cursor-pointer transform hover:-translate-y-2 transition ease-in" name="logo-skype"></ion-icon>
+                <ion-icon class="text-xl text-white bg-green-600 p-2 m-1 rounded-full cursor-pointer transform hover:-translate-y-2 transition ease-in" name="logo-facebook"></ion-icon>
+            </div>
+            <p>&copy; Copyright <span class="font-bold">EastSchool</span>. All Rights Reserved</p>
+            <p class="font-thin">Not personal design. Developed by <a href="https://mirkomilboy.github.io/" class="text-green-400 hover:border-b border-green-400">Mirkomilboy Sadirov</p>
+        </div>
+
+    </main>
+
+    <script src="js/jquery.js"></script>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="vendor/isotope/isotope.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
